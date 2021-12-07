@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.appContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(217, 54%, 11%);
+
+  .cardContainer {
+    width: 250px;
+    height: auto;
+    padding: 15px;
+    border-radius: 10px;
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(216, 50%, 16%);
+
+    .cardImg {
+      width: 100%;
+      border-radius: 5px;
+      margin-bottom: 1rem;
+    }
+
+    .cardTitle {
+      color: hsl(0, 0%, 100%);
+      font-size: 18px;
+      margin-bottom: 1rem;
+    }
+
+    .cardText {
+      color: hsl(215, 32%, 27%);
+      margin-bottom: 1rem;
+    }
+
+    .cardBottom {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 0.5rem;
+
+      .cardBottomLeft {
+        display: flex;
+        align-items: center;
+
+        .cardBottomLeftText {
+          color: hsl(178, 100%, 50%);
+          margin-left: 5px;
+          font-size: 14px;
+        }
+      }
+
+      .cardBottomRight {
+        display: flex;
+        align-items: center;
+
+        .cardBottomRightText {
+          color: hsl(215, 51%, 70%);
+          margin-left: 5px;
+          font-size: 14px;
+        }
+      }
+    }
+
+    .cardFooter {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      padding: 0.5rem 0;
+
+      .cardFooterImg {
+        width: 30px;
+        height: 30px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 2px solid hsl(215, 32%, 27%);
+        margin-right: 5px;
+      }
+
+      .cardFooterText {
+        font-size: 12px;
+        color: hsl(215, 51%, 70%);
+        span {
+          color: white;
+        }
+      }
+    }
+  }
+}

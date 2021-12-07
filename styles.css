@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+}
+
+.appContainer {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #0d192b;
+}
+
+.appContainer .cardContainer {
+  width: 250px;
+  height: auto;
+  padding: 15px;
+  border-radius: 10px;
+  font-family: 'Outfit', sans-serif;
+  background-color: #14253d;
+}
+
+.appContainer .cardContainer .cardImg {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.appContainer .cardContainer .cardTitle {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
+
+.appContainer .cardContainer .cardText {
+  color: #2f415b;
+  margin-bottom: 1rem;
+}
+
+.appContainer .cardContainer .cardBottom {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.appContainer .cardContainer .cardBottom .cardBottomLeft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.appContainer .cardContainer .cardBottom .cardBottomLeft .cardBottomLeftText {
+  color: #00fff7;
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.appContainer .cardContainer .cardBottom .cardBottomRight {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.appContainer .cardContainer .cardBottom .cardBottomRight .cardBottomRightText {
+  color: #8bacda;
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.appContainer .cardContainer .cardFooter {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.5rem 0;
+}
+
+.appContainer .cardContainer .cardFooter .cardFooterImg {
+  width: 30px;
+  height: 30px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #2f415b;
+  margin-right: 5px;
+}
+
+.appContainer .cardContainer .cardFooter .cardFooterText {
+  font-size: 12px;
+  color: #8bacda;
+}
+
+.appContainer .cardContainer .cardFooter .cardFooterText span {
+  color: white;
+}
+/*# sourceMappingURL=styles.css.map */
